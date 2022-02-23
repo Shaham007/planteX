@@ -365,6 +365,7 @@ the website, in dark theme
 
 .about__img{
   width: 280px;
+  border-radius: 8px;
   justify-self: center;
 }
 
@@ -593,10 +594,10 @@ the website, in dark theme
 }
 
 .contact__subtitle{
-  font-size: var(--normal-font-size);
-  font-weight: var(--font-medium);
+  font-size: .938rem;
+  font-weight: 500;
   color: var(--text-color);
-  margin-bottom: var(--mb-0-5);
+  margin-bottom: .5rem;
 }
 
 .contact__description{
@@ -604,7 +605,7 @@ the website, in dark theme
   align-items: center;
   column-gap: .5rem;
   color: var(--title-color);
-  font-weight: var(--font-medium);
+  font-weight: 500;
 }
 
 .contact__icon{
@@ -614,7 +615,7 @@ the website, in dark theme
 .contact__inputs{
   display: grid;
   row-gap: 2rem;
-  margin-bottom: var(--mb-2-5);
+  margin-bottom: 2.5rem;
 }
 
 .contact__content{
@@ -641,7 +642,7 @@ the website, in dark theme
   position: absolute;
   top: .75rem;
   width: 100%;
-  font-size: var(--small-font-size);
+  font-size: .813rem;
   color: var(--text-color-light);
   transition: .3s;
 }
@@ -658,14 +659,14 @@ the website, in dark theme
 .contact__input:focus + .contact__label{
   top: -.75rem;
   left: 0;
-  font-size: var(--smaller-font-size);
+  font-size: .813rem;
   z-index: 10;
 }
 
 /*Input focus sticky top label*/
 .contact__input:not(:placeholder-shown).contact__input:not(:focus) + .contact__label{
   top: -.75rem;
-  font-size: var(--smaller-font-size);
+  font-size: .813rem;
   z-index: 10;
 }
 
@@ -682,7 +683,7 @@ the website, in dark theme
   text-transform: uppercase;
   font-weight: 700;
   letter-spacing: -1px;
-  margin-bottom: var(--mb-2-5);
+  margin-bottom: 2.5rem;
   transition: .3s;
 }
 
@@ -697,7 +698,7 @@ the website, in dark theme
 
 .footer__title{
   font-size: var(--h3-font-size);
-  margin-bottom: var(--mb-1-5);
+  margin-bottom: 1.5rem;
 }
 
 .footer__subscribe{
@@ -728,7 +729,7 @@ the website, in dark theme
 }
 
 .footer__information{
-  font-size: var(--small-font-size);
+  font-size: .813rem;
 }
 
 .footer__social{
@@ -757,7 +758,7 @@ the website, in dark theme
 
 .footer__copy{
   text-align: center;
-  font-size: var(--smaller-font-size);
+  font-size: .813rem;
   color: var(--text-color-light);
   margin: 5rem 0 1rem;
 }
@@ -771,7 +772,7 @@ the website, in dark theme
   display: inline-flex;
   padding: .5rem;
   border-radius: .25rem;
-  z-index: var(--z-tooltip);
+  z-index: 10;
   opacity: .8;
   transition: .4s;
 }
